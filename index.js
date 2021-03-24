@@ -78,7 +78,7 @@ app.get("/result/:id",(req,res)=>{
             const data=JSON.parse(body)
             console.log(data)
             res.send(data)
-            //res.render("result",{moviedata : data})
+            //res.render("result",{moviedata : data}) wnjnwjnejvnwk
 
         }else{
             res.send("uh oh error")
