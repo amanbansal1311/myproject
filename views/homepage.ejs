@@ -1,0 +1,22 @@
+<%- include("./partials/header")%>
+
+    <h1> your movies</h1>
+
+    <!--<a href="https://www.google.com">click here</a>-->
+
+
+    <!--<form action="/result" method="GET">
+         placeholder is used to write predefined input like "username " and "password"
+        <input type="text" name="username" placeholder="Name">
+        <input type="password" name="password" placeholder="Password">
+        <button>Submit</button>
+    </form>-->
+
+
+<!-- now we are moving our actual part og getting input from user as a movie name-->
+<form action="/result" method="GET">
+         
+        <input type="text" name="MovieName" placeholder="movie Name">
+        <button>Submit</button>
+    </form>
+<%- include("./partials/footer")%>
