@@ -1,0 +1,25 @@
+<%- include("./partials/header")%>
+    <style>
+        .moredata{
+            color:salmon;
+
+
+        }
+    </style>
+    <div class="moredata">
+        <h1><b>Movie Name:</b><%=moviedata1.Title%>,<%=moviedata1.Year%></h1>
+        <img src="<%=moviedata1.Poster%>">
+        <h1><b>Rated:</b><%= moviedata1.Rated %> </h1>
+        <h1><b>Runtime:</b><%= moviedata1.Runtime %> </h1>
+        <h1><b>Director:</b><%= moviedata1.Director%> </h1>
+        <h1><b>Released:</b><%= moviedata1.Released %> </h1>
+        <h1><b>Writer:</b><%= moviedata1.Writer %> </h1>
+        <h1><b>Language:</b><%= moviedata1.Language %> </h1>
+        <h1><b>Awards:</b><%= moviedata1.Awards%> </h1>
+        <h1><b>imdbRating:</b><%= moviedata1.imdbRating%> </h1>
+        <h1><b>Plot:</b><%= moviedata1.Plot %> </h1>
+        <h1><b>Country:</b><%= moviedata1.Country%> </h1>
+        <h1><b>Boxoffice:</b><%= moviedata1.Boxoffice%> </h1>
+        <h1><b>Actors:</b><%= moviedata1.Actors%> </h1>
+    </div>
+<%- include("./partials/footer")%>
