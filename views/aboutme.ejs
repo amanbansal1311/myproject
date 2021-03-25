@@ -1,4 +1,54 @@
 <%- include("./partials/header")%>
-<body>
-    <h1>I AM STUDING IN IIT BHU VARANASI</h1>
-    <%- include("./partials/footer")%>
+<div class="cards">
+<style>
+    .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px));
+    grid-gap: 20px;
+    background-color: rgba(177, 162, 169, 0.2);
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+    
+</style>
+    
+            
+</article>
+        
+ <article class="card">
+    <header>
+        <h2>AMAN BANSAL</h2>
+        <h3>WEB DEVELOPER</h3>
+    </header>    
+    
+    <div class="content">
+        <p>MY NAME IS AMAN BANSAL AND CURRENTLY I STUDYING IN IIT BHU VARANASI.</p>
+    </div>
+</article>
+        
+<article class="card">
+    <header>
+        <h2>SKILLS</h2>
+    </header>
+   
+    <div class="content">
+        <ul>
+            <li>HTML</li>
+            <li>JAVA SCRIPT</lI>
+            <li>NODE JS</li>
+            <li>DATA STRUCTURE AND ALGORITHMS</li>
+        </ul>
+    </div>
+</article>
+
+</div>
+        
+
+
+ <%- include("./partials/footer")%>
